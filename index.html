@@ -4,45 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Flota</title>
-
-    <!-- Kolory paska dla urządzeń mobilnych -->
     <meta name="theme-color" content="#f4f4f9">
-    
-    <!-- Tryb pełnoekranowy PWA dla iOS (Safari) -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Flota">
-    
-    <!-- Link do pliku manifestu (Wymóg Androida do trybu pełnoekranowego) -->
     <link rel="manifest" href="manifest.json">
-    
-    <!-- Linki do pliku z ikoną -->
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="icon" type="image/png" href="icon.png">
-
     <style>
         body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f4f4f9; }
         iframe { border: none; width: 100%; height: 100%; display: block; }
     </style>
 </head>
 <body>
-    <script>
-        // 1. Zdefiniuj swój STAŁY, obecny link do wdrożenia
-        const baseUrl = "https://script.google.com/macros/s/AKfycbzRgUO4hzmHMOflOPlKNqQaNdaNkKAtf2dQch77nmsHgy01vrbNlKNcUeokKPTCNEli/exec?v=4";
-        
-        // 2. Wygeneruj unikalny znacznik czasu (co do milisekundy)
-        const cacheBuster = new Date().getTime();
-        
-        // 3. Stwórz element iframe z doczepionym znacznikiem
-        const iframe = document.createElement('iframe');
-        iframe.src = baseUrl + "?v=" + cacheBuster;
-        iframe.style.border = "none";
-        iframe.style.width = "100%";
-        iframe.style.height = "100%";
-        iframe.style.display = "block";
-        
-        // 4. Wrzuć ramkę na stronę
-        document.body.appendChild(iframe);
-    </script>
+    <!-- Tutaj wklejam SWÓJ NAJNOWSZY wygenerowany z "Nowego wdrożenia" link -->
+    <iframe src="https://script.google.com/macros/s/AKfycbxPxC9Tb7ODR9bwkonvxrRWcL2S5SbGbp2nTENPD7gt3iizYLibXhpaN1jYJT6rglxS/exec"></iframe>
 </body>
 </html>
